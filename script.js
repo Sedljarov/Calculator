@@ -20,9 +20,7 @@ function clearAll() {
 function power() {
   firstNumber = Math.pow(firstNumber, secondNumber);
 }
-function plusMinus() {
-  out.innerText = "-";
-}
+
 ac.addEventListener("click", clearAll);
 
 const eventButtons = (e) => {
