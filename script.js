@@ -62,7 +62,6 @@ const eventButtons = (e) => {
       return;
     }
   }
-
   if (key === "=") {
     if (secondNumber === "") {
       secondNumber = firstNumber;
@@ -104,3 +103,7 @@ const eventButtons = (e) => {
 };
 
 buttons.addEventListener("click", eventButtons);
+
+document.querySelector("#changeSubject").addEventListener("click", () => {
+  document.querySelector("body").classList.toggle("dark-theme");
+});

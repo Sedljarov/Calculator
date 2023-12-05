@@ -1,3 +1,7 @@
+body {
+  background: yellowgreen;
+}
+
 .calc {
   margin: 100px auto;
   width: 280px;
@@ -54,4 +58,33 @@
 
 .zero {
   padding: 20px 110px 20px 20px;
+}
+
+#changeSubject {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.dark-theme {
+  background: rgb(114, 221, 238);
+}
+
+.dark-theme .btn {
+  background: #ff0000;
+}
+
+.dark-theme .btn:hover {
+  filter: brightness(120%);
+}
+
+.dark-theme .btn:active {
+  filter: brightness(90%);
+}
+
+.dark-theme #changeSubject {
+  background: #ff8c00;
+}
+
+.dark-theme .calc {
+  background: #ff8c00;
 }
